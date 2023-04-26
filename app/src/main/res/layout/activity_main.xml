@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/dent_mark"
+        android:layout_width="145dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dent_mark" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/light_gray"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_secession"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_secession"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="회원탈퇴"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/light_gray"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_logout" />
+
+    <TextView
+        android:id="@+id/diagnosis_text"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/diagnosis_background"
+        android:gravity="center"
+        android:text="     진단 시작"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diagnosis_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/diagnosis_text"
+        app:layout_constraintStart_toStartOf="@+id/diagnosis_text"
+        app:layout_constraintTop_toTopOf="@+id/diagnosis_text"
+        app:srcCompat="@drawable/diagnosis_img" />
+
+
+    <!--
+        <Button
+            android:id="@+id/start_diagnosis"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="진단 시작"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/light_gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+            -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
