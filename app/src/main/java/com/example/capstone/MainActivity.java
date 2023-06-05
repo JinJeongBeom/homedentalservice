@@ -47,11 +47,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView text = (TextView) findViewById(R.id.diagnosis_text);
-        text.setOnClickListener(new View.OnClickListener() {
+        TextView text_diagnosis = (TextView) findViewById(R.id.diagnosis_text);
+        text_diagnosis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, DiagnosisManual.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        TextView text_location = (TextView) findViewById(R.id.location_text);
+        text_location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DentistryLocation.class);
                 startActivity(intent);
                 //finish();
             }
