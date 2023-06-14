@@ -114,6 +114,7 @@ public class ResultDiagnosis extends AppCompatActivity {
         } else {
             //StorageReference submitProfile;
 
+
             StorageReference submitProfile1 = storageReference.child("image_store" + day + "/photo_1.jpg");
             StorageReference submitProfile2 = storageReference.child("image_store" + day + "/photo_2.jpg");
             StorageReference submitProfile3 = storageReference.child("image_store" + day + "/photo_3.jpg");
@@ -193,6 +194,7 @@ public class ResultDiagnosis extends AppCompatActivity {
                 }
                 else {
                     //StorageReference submitProfile;
+
 
                     StorageReference submitProfile1 = storageReference.child("image_store" + diagnosisDay + "/photo_1.jpg");
                     StorageReference submitProfile2 = storageReference.child("image_store" + diagnosisDay + "/photo_2.jpg");

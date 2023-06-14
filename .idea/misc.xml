@@ -11,13 +11,21 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/CapStone/app/src/main/res/layout/activity_user_account.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/drawable/edge.xml" value="0.1" />
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.14635416666666667" />
+<<<<<<< HEAD
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_dentistry_location.xml" value="0.22866894197952217" />
+=======
+        <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_dentistry_location.xml" value="0.6" />
+>>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_diagnosis_manual.xml" value="0.264" />
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_login.xml" value="0.24691358024691357" />
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_register.xml" value="0.24820512820512822" />
+<<<<<<< HEAD
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_result_diagnosis.xml" value="0.264" />
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_survey.xml" value="0.2" />
+=======
+        <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/activity_result_diagnosis.xml" value="0.24691358024691357" />
+>>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
         <entry key="..\:/Users/user/Desktop/CapStone/app/src/main/res/layout/result.xml" value="0.128" />
         <entry key="..\:/Users/user/Desktop/study/CapStone/app/src/main/res/layout/activity_diagnosis_manual.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/user/Desktop/study/CapStone/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
@@ -27,7 +35,11 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+>>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
