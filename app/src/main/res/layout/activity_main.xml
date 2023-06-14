@@ -65,6 +65,52 @@
         app:layout_constraintTop_toTopOf="@+id/diagnosis_text"
         app:srcCompat="@drawable/diagnosis_img" />
 
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/diagnosis_background"
+        android:gravity="center"
+        android:text="         치과 위치 검색"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diagnosis_text" />
+
+    <ImageView
+        android:id="@+id/location_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_text"
+        app:layout_constraintStart_toStartOf="@+id/location_text"
+        app:layout_constraintTop_toTopOf="@+id/location_text"
+        app:srcCompat="@drawable/location_img" />
+
+    <TextView
+        android:id="@+id/survey_text"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/diagnosis_background"
+        android:gravity="center"
+        android:text="         설문조사 시작"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diagnosis_text" />
+
+    <ImageView
+        android:id="@+id/survey_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/survey_text"
+        app:layout_constraintStart_toStartOf="@+id/survey_text"
+        app:layout_constraintTop_toTopOf="@+id/survey_text"
+        app:srcCompat="@drawable/survey_img" />
 
     <!--
         <Button
