@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
+
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity"
     android:background="@drawable/background">
-=======
+
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
->>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
+
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -26,62 +26,45 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-<<<<<<< HEAD
+
             android:background="@drawable/edge"
-=======
-            android:background="#FEFEFE"
->>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
+
             android:text="구강 검진 문진표"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="24dp"
-<<<<<<< HEAD
+
             android:textStyle="bold"
             android:layout_marginTop="30dp"/>
-=======
+
             android:textStyle="bold" />
->>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
+
     </LinearLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="2px"
         android:background="#9F9E9E"
-<<<<<<< HEAD
-        android:backgroundTint="#D3D4D5"
-        />
-=======
         android:backgroundTint="#D3D4D5" />
->>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
+
 
     <TextView
         android:id="@+id/questionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:background="@drawable/edge"
         android:text=""
         android:textColor="#000000"
         android:textSize="18sp"
         tools:ignore="HardcodedText"
         android:layout_marginTop="30dp"/>
-=======
-        android:background="#F4F4F4"
-        android:text=""
-        android:textColor="#000000"
-        android:textSize="18sp"
-        tools:ignore="HardcodedText" />
->>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
+
 
     <RadioGroup
         android:id="@+id/answerRadioGroup"
         android:layout_width="match_parent"
         android:layout_height="333dp"
-<<<<<<< HEAD
         android:background="@drawable/edge"
         android:layout_marginTop="30dp">
-=======
-        android:background="#FFFFFF">
->>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
 
         <RadioButton
             android:id="@+id/option1RadioButton"
@@ -101,10 +84,7 @@
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:backgroundTint="@color/light_gray"
-=======
->>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
         android:text="다음" />
 
 </LinearLayout>

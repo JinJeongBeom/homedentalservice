@@ -14,17 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CapStone">
-        <activity
-            android:name=".SurveyActivity"
-<<<<<<< HEAD
-            android:exported="true" />
-=======
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
->>>>>>> b9fac180c2332ea5042fd0f08b3af0964f547696
+
+
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -57,6 +48,16 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+
+        <activity
+            android:name=".SurveyActivity"
+
+            android:exported="true" />
+
+        android:exported="false">
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
     </application>
 
 </manifest>
